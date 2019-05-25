@@ -1,0 +1,10 @@
+---
+
+version: '3'
+
+services:
+  janino:
+    image: k42s/janino
+    build:
+      context: .
+      dockerfile: Dockerfile
